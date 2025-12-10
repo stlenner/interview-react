@@ -8,7 +8,7 @@ export default function Root() {
                 <Link to="/" className="btn btn-ghost text-xl">React Blog Interview</Link>
             </div>
         </div>
-        <main className="flex-grow container mx-auto p-4">
+        <main className="grow container mx-auto p-4">
             <Outlet />
         </main>
     </div>

@@ -10,11 +10,11 @@ We want to have a simple blog app that allows to list and read blog posts.
 
 ## API to use
 - [JSON Placeholder](https://jsonplaceholder.typicode.com/)
-- [Rest API Documentation](https://docs.mockend.com/rest)
+- [Rest API Documentation](https://docs.mockend.com/rest) [Hint](https://docs.mockend.com/rest#paginate)
 
 ## Tasks
 1. Retrieve 20 blog posts from the [JSON Placeholder](https://jsonplaceholder.typicode.com/) API.
-2. Display each post in a list of [Cards](https://v4.daisyui.com/components/card/) with the following properties:
+2. Display each post in a list of [Cards](https://daisyui.com/components/card/) with the following properties:
     - Title
     - Body (truncated to 50 characters)
 3. Add a link to each post (Button in Action Row) that allows to read the post `/post/:id`.
@@ -23,8 +23,8 @@ We want to have a simple blog app that allows to list and read blog posts.
     - Body
 
 ## Resources
-- [DaisyUI](https://v4.daisyui.com/) (Component library)
-- [Tailwind CSS](https://v3.tailwindcss.com/docs/installation)
+- [DaisyUI](https://daisyui.com/) (Component library)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation)
 - [React Router](https://reactrouter.com/home)
 - [React Query](https://tanstack.com/query/latest/docs/framework/react/overview)
 - [Next.js](https://nextjs.org/docs/14/getting-started)
