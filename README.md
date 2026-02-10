@@ -2,8 +2,15 @@
 
 Start by selecting the starter template you want to use:
 
-- [React + TypeScript + Vite](react-vanilla)
-- [Next.js](nextjs)
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
 
 ## What is the app about?
 We want to have a simple blog app that allows to list and read blog posts.
