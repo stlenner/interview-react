@@ -1,5 +1,6 @@
 import { Route } from "react-router-dom";
 import { lazy } from "react";
+import { PostDetail } from "../components/PostDetails"
 
 /* eslint-disable-next-line react-refresh/only-export-components */
 const RootLayout = lazy(() => import('../pages/root'));
@@ -15,5 +16,6 @@ export default (
             index
             Component={Index}
         />
+        <Route path="post/:id" Component={PostDetail} />
     </Route>
 )
